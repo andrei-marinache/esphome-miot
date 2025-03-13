@@ -4,7 +4,7 @@
 # https://github.com/cristianchelu/dispenser-schedule-card
 
 external_components:
-  source: github://dhewg/esphome-miot@main
+  source: github://andrei-marinache/esphome-miot@main
 
 substitutions:
   # Timezone for automatic daylight savings time (DST) adjustment
@@ -47,7 +47,7 @@ esphome:
   friendly_name: Pet Feeder
   comment: Xiaomi Smart Pet Food Feeder (mmgg.feeder.fi1)
   project:
-    name: "dhewg.esphome-miot"
+    name: "andrei-marinache.esphome-miot"
     version: "mmgg.feeder.fi1"
 
 time:
@@ -373,7 +373,7 @@ sensor:
     name: "Device Country"
     icon: mdi:clock
     entity_category: diagnostic
-    on_raw_value: # https://github.com/dhewg/esphome-miot/issues/39
+    on_raw_value: # https://github.com/andrei-marinache/esphome-miot/issues/39
       lambda: |-
         if (x == 255) {
           id(set_countrycode).execute(3);

@@ -1,14 +1,14 @@
 # https://home.miot-spec.com/spec/zhimi.airp.rmb1
 
 external_components:
-  source: github://dhewg/esphome-miot@main
+  source: github://andrei-marinache/esphome-miot@main
 
 esphome:
   name: purifier
   friendly_name: Air Purifier
   comment: Xiaomi Smart Air Purifier 4 Lite (zhimi.airp.rmb1)
   project:
-    name: "dhewg.esphome-miot"
+    name: "andrei-marinache.esphome-miot"
     version: "zhimi.airp.rmb1"
 
 esp32:

@@ -1,14 +1,14 @@
 # https://home.miot-spec.com/spec/zhimi.humidifier.ca4
 
 external_components:
-  source: github://dhewg/esphome-miot@main
+  source: github://andrei-marinache/esphome-miot@main
 
 esphome:
   name: humidifier
   friendly_name: Air Humidifier
   comment: Smartmi Evaporative Humidifier 2 (zhimi.humidifier.ca4)
   project:
-    name: "dhewg.esphome-miot"
+    name: "andrei-marinache.esphome-miot"
     version: "zhimi.humidifier.ca4"
 
 esp32:

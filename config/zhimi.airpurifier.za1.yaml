@@ -1,14 +1,14 @@
 # https://home.miot-spec.com/spec/zhimi.airpurifier.za1
 
 external_components:
-  source: github://dhewg/esphome-miot@main
+  source: github://andrei-marinache/esphome-miot@main
 
 esphome:
   name: purifier
   friendly_name: Air Purifier
   comment: Smartmi Air Purifier (zhimi.airpurifier.za1)
   project:
-    name: "dhewg.esphome-miot"
+    name: "andrei-marinache.esphome-miot"
     version: "zhimi.airpurifier.za1"
 
 esp32:

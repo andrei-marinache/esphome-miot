@@ -2,14 +2,14 @@
 # https://home.miot-spec.com/spec/zhimi.airpurifier.mb4
 
 external_components:
-  source: github://dhewg/esphome-miot@main
+  source: github://andrei-marinache/esphome-miot@main
 
 esphome:
   name: purifier
   friendly_name: Air Purifier
   comment: Mi Air Purifier 3C (zhimi.airp.mb4a)
   project:
-    name: "dhewg.esphome-miot"
+    name: "andrei-marinache.esphome-miot"
     version: "zhimi.airp.mb4a"
 
 esp32:
